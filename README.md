@@ -13,6 +13,7 @@ chef.json = {
   :disableservices => %w{
     ip6tables
     lvm2-monitor
-}}
+  }
+}
 ```
 
