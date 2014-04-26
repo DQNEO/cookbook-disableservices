@@ -9,9 +9,10 @@ in the attribute `disableservices` define list of service names which you want t
 in Vagrantfile
 
 ```ruby
-    chef.json = { :disableservices => %w{
-ip6tables
-lvm2-monitor
+chef.json = {
+  :disableservices => %w{
+    ip6tables
+    lvm2-monitor
 }}
 ```
 
